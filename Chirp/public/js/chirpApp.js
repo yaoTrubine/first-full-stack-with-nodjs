@@ -20,7 +20,33 @@ app.config(function($routeProvider){
 });
 
 app.controller('mainController',function($scope){
-    $scope.posts = [];
+    $scope.posts = [
+		{
+			imageUrl: './img/1.png',
+			title: 'asasd',
+			address: 'asdadasdsd'
+		},
+		{
+			imageUrl: './img/1.png',
+			title: 'asasd',
+			address: 'asdadasdsd'
+		},
+		{
+			imageUrl: './img/1.png',
+			title: 'asasd',
+			address: 'asdadasdsd'
+		},
+		{
+			imageUrl: './img/1.png',
+			title: 'asasd',
+			address: 'asdadasdsd'
+		},
+		{
+			imageUrl: './img/1.png',
+			title: 'asasd',
+			address: 'asdadasdsd'
+		},
+	];
     $scope.newPost = {created_by:'',text:'',created_at:''};
 
     $scope.post = function(){
@@ -41,3 +67,4 @@ app.controller('authController',function($scope){
         $scope.error_message = 'Register request for' + $scope.user.username;
     };
 });
+
