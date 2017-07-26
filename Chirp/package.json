@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "mongoose": "^4.11.4"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "joi": "^10.6.0"
+  }
+}
